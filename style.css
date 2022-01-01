@@ -10,8 +10,6 @@ button {
   outline: none;
   cursor: pointer;
   border: none;
-  width: 400px;
-  heigth: 200px';
   box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.75);
 }
 #counter {
