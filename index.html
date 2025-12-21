@@ -1,84 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ТЕХНИЧЕСКИЕ РАБОТЫ | SYSTEM MAINTENANCE</title>
-    <link rel="stylesheet" href="styles.css">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="signcode_flutter">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>signcode_flutter</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <!-- Animated Grid Background -->
-    <div class="grid-overlay"></div>
-    
-    <!-- Scan Lines Effect -->
-    <div class="scanlines"></div>
-    
-    <!-- HUD Corner Elements -->
-    <div class="hud-corner hud-top-left"></div>
-    <div class="hud-corner hud-top-right"></div>
-    <div class="hud-corner hud-bottom-left"></div>
-    <div class="hud-corner hud-bottom-right"></div>
-    
-    <!-- Animus-style Loading Lines -->
-    <div class="animus-lines">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
-    </div>
-    
-    <!-- Particle Effects -->
-    <div class="particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-    </div>
-
-    <div class="container maintenance-container">
-        <!-- System Status Header -->
-        <div class="system-status">
-            <div class="status-badge status-maintenance">
-                <span class="status-indicator"></span>
-                <span class="status-text">MadMarchello Blog </span>
-            </div>
-        </div>
-
-        <!-- Main Content -->
-        <section class="maintenance-hero">
-            <div class="maintenance-icon">
-                <div class="icon-wrapper">
-                    <div class="gear gear-1">⚙</div>
-                    <div class="gear gear-2">⚙</div>
-                </div>
-            </div>
-            
-            <h1 class="maintenance-title glitch" data-text="ТЕХНИЧЕСКИЕ РАБОТЫ">
-                ТЕХНИЧЕСКИЕ РАБОТЫ
-            </h1>
-            
-            <p class="maintenance-subtitle">
-                СИСТЕМА ВРЕМЕННО НЕДОСТУПНА
-            </p>
-            
-        </section>
-
-        <!-- Progress Section -->
-
-        <!-- Footer -->
-        <footer class="maintenance-footer">
-            <div class="footer-content">
-                <div class="footer-line"></div>
-                <p class="footer-text">
-                    <span class="footer-label">СПАСИБО ЗА ПОНИМАНИЕ</span>
-                </p>
-                <div class="footer-line"></div>
-            </div>
-            <p class="footer-copyright">
-                Блог будет доступен сразу после завершения работ
-            </p>
-        </footer>
-    </div>
-
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
